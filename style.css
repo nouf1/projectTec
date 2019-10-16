@@ -1,0 +1,70 @@
+
+h1 {
+    color:  #E6E6FA;
+    background-color:#043834;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    border: 2px groove #89AC81;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    background-image:url("https://images.squarespace-cdn.com/content/v1/5bdc20254611a0d6c1192b8e/1541154972735-K3KBM6G64XR0IX1569DZ/ke17ZwdGBToddI8pDm48kLPswmMOqQZ9-Q6KHLjvbpZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcaEU9usEQgaPMYSSHCLDdjcUDfwtSR5qjoqJbWx-aCIZDqXZYzu2fuaodM4POSZ4w/Palm-Background-News.png?format=2500w") 
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#message {
+    color:#E6E6FA;
+    background-color:#043834;
+    height: 60px;
+    width: 200px;
+    border: 2px groove #89AC81;
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin: 20px 300px;
+    text-align: center;
+}
+.container {
+    justify-content: flex-start;
+    align-items: center;
+    height:500px;
+    width: 500px;
+    margin: 50px 100px;
+    
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px ridge #135E1A;
+    border-radius: 5px;
+    font-family:'Shojumaru', cursive;
+    color:#043834;
+    font-size: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+button {
+    color:  #E6E6FA;
+    background-color:#043834;
+    height: 60px;
+    width: 200px;
+    border: 2px groove #89AC81;
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    margin: 20px 100px ;
+}
+footer{
+    background-color:#043834;
+    color:  #E6E6FA;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+
+}
