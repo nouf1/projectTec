@@ -5,8 +5,8 @@
      HTML , CSS , JavaScript ;
 
 ----
-## My wireframes 
-![]( wireframe.png )
+
+![## My wireframes ]( wireframe.png )
 ----
 ## My Project link
  [Tic Tac Toe]( https://nouf1.github.io/projectTec/)
