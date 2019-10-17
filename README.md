@@ -6,7 +6,10 @@
 
 ----
 ## My wireframes 
-![](wireframe.png)
+![]( wireframe.png )
+----
+## My Project link
+ [Tic Tac Toe]( https://nouf1.github.io/projectTec/)
 ----
 ## User Stories
 1. As a user, I should be able to start a new tic tac toe game

@@ -1,6 +1,7 @@
 let count = 0;
 const td = document.querySelectorAll('td');
 let playerTurn = true;
+let audio = new Audio("win.mp3")
 
 let board = [
     [1,2,3],
@@ -73,18 +74,22 @@ const checkWinning = function(){
 if ( board[0][0]== board[0][1] && board[0][0] == board[0][2]){
     setMessge(board[0][1] + " WINS Congrat")
     removeEvent()
+    audio.play()
    
 }else if( board[1][0]== board[1][1] && board[1][0] == board[1][2]){
     setMessge(board[1][0] + " WINS Congrat")
     removeEvent()
+    audio.play()
     
 } else if (board[2][0]== board[2][1] && board[2][0]==board[2][2]){
     setMessge(board[2][0] + " WINS Congrat")
     removeEvent()
+    audio.play()
     
 } else if( board[3][0]== board[3][1] && board[3][0] == board[3][2]){
     setMessge(board[3][0] + " WINS Congrat")
     removeEvent()
+    audio.play()
    
 } else if( board[4][0]== board[4][1] && board[4][0] == board[4][2]){
     setMessge(board[4][0] + " WINS Congrat")
@@ -93,31 +98,36 @@ if ( board[0][0]== board[0][1] && board[0][0] == board[0][2]){
 } else if( board[5][0]== board[5][1] && board[5][0] == board[5][2]){
     setMessge(board[5][0] + " WINS Congrat")
     removeEvent()
+    audio.play()
     
 } else if( board[6][0]== board[6][1] && board[6][0] == board[6][2]){
     setMessge(board[6][0] + " WINS Congrat")
-    removeEvent()   
+    removeEvent() 
+    audio.play()  
    
 } else if( board[7][0] == board[7][1] && board[7][0] == board[7][2]){
     setMessge(board[7][0] + " WINS Congrat")
-    removeEvent()    
+    removeEvent()
+    audio.play()    
          
 } else if (count == 9 ){
     setMessge("tie")
     removeEvent()  
 }
 }
+
 for(let i=0;i<td.length;i++){
 td[i].addEventListener('click', newGame)}
 
+
 const removeEvent = function(){
     for(let i=0;i<td.length;i++){
-        td[i].removeEventListener('click', newGame)}
-
+    td[i].removeEventListener('click', newGame)}
 }
 
 const rst = document.querySelector('#rst')
     const refresh = function(){
            window.location.reload();
     }
-rst.addEventListener('click',refresh)
+
+    rst.addEventListener('click',refresh)
